@@ -23,6 +23,8 @@
 
 - **`金币记账本-v2.9.apk`**（约 7.9 MB，debug 签名，可直接安装；旧版本名为「鲸鱼记账」「快速记账本」，同一 applicationId 覆盖安装、账目数据保留）
 
+也可以直接在 GitHub 下载：[Releases · v2.9](https://github.com/Fiber404/jizhang/releases/latest)
+
 安装到手机：把 APK 传到手机（微信/QQ/数据线均可）→ 点击安装 → 允许「安装未知来源应用」即可。支持 Android 7.0（API 24）及以上。
 
 重新构建 APK（需要本机已装 Android SDK + JDK）：
