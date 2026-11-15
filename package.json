@@ -1,0 +1,29 @@
+{
+  "name": "jizhang",
+  "version": "2.9.0",
+  "description": "金币记账本：Q 版小账本主题的安卓记账 App / PWA，支持今日账单、日历明细、分类管理、折线图与环形图统计、预算提醒，数据只存本机。",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "sync:www": "node tools/sync-www.mjs",
+    "android:sync": "npm run sync:www && npx cap sync android",
+    "android:build": "npm run android:sync && cd android && gradlew.bat assembleDebug",
+    "icons": "node tools/gen-mascot-007.mjs"
+  },
+  "keywords": [
+    "android",
+    "pwa",
+    "capacitor",
+    "ledger",
+    "bookkeeping"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/cli": "^8.5.3",
+    "@capacitor/core": "^8.5.3",
+    "sharp": "^0.35.5"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "appId": "com.achai.jizhang",
+  "appName": "金币记账本",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}
